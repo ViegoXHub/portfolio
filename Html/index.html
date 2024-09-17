@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Dhia - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">&lt;D&gt;</div>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="page-section">
+        <div class="content-square">
+            <div class="home-content">
+                <div class="photo-box">
+                    <img src="image/My Photo.jpg" alt="Mohamed Dhia" class="profile-photo">
+                    <h1><span id="name">Mohamed Dhia</span></h1>
+                </div>
+                <div class="info-box">
+                    <div class="typing-animation" id="subtext"></div>
+                    <p>Hello! I’m passionate about coding and technology, currently focused on front-end development and improving my skills in cybersecurity. I love turning creative ideas into functional, user-friendly applications. Let's build the future!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="page-section skills-container">
+        <div class="content-square">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <!-- Skills Squares -->
+                <div class="skill-square">
+                    <div class="skill-text">HTML</div>
+                    <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar html"><span>90%</span></div>
+                    </div>
+                </div>
+
+                <div class="skill-square">
+                    <div class="skill-text">CSS</div>
+                    <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar css"><span>80%</span></div>
+                    </div>
+                </div>
+
+                <div class="skill-square">
+                    <div class="skill-text">JavaScript</div>
+                    <div class="skill-icon"><i class="fab fa-js"></i></div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar javascript"><span>75%</span></div>
+                    </div>
+                </div>
+
+                <div class="skill-square">
+                    <div class="skill-text">Python</div>
+                    <div class="skill-icon"><i class="fab fa-python"></i></div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar python"><span>85%</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="page-section">
+        <div class="content-square">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Pricing Section -->
+<section id="pricing" class="page-section">
+    <div class="content-square">
+        <h2>Pricing</h2>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>Basic</h3>
+                <p class="price">$100</p>
+                <ul>
+                    <li>1 Hour Consultation</li>
+                    <li>Basic Website Design</li>
+                    <li>Email Support</li>
+                </ul>
+                <button class="pricing-btn">Contact</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Standard</h3>
+                <p class="price">$300</p>
+                <ul>
+                    <li>3 Hours Consultation</li>
+                    <li>Custom Website Design</li>
+                    <li>Priority Email Support</li>
+                    <li>Basic SEO</li>
+                </ul>
+                <button class="pricing-btn">Contact</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Premium</h3>
+                <p class="price">$500</p>
+                <ul>
+                    <li>5 Hours Consultation</li>
+                    <li>Advanced Website Design</li>
+                    <li>24/7 Support</li>
+                    <li>Advanced SEO</li>
+                    <li>Monthly Maintenance</li>
+                </ul>
+                <button class="pricing-btn">Contact</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Works Section -->
+<section id="works" class="page-section">
+    <div class="content-square">
+        <h2>Works</h2>
+        <div class="works-gallery">
+            <div class="work-item">
+                <img src="image/Work 1.png" alt="Work 1">
+                <div class="work-info">
+                    <h3>DevFolio</h3>
+                    <p>A Developer Portfolio Website.</p>
+                </div>
+            </div>
+            <div class="work-item">
+                <img src="image/work2.jpg" alt="Work 2">
+                <div class="work-info">
+                    <h3>Project Title 2</h3>
+                    <p>Brief description of the project and what was accomplished.</p>
+                </div>
+            </div>
+            <!-- Add more work items as needed -->
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="content-square">
+            <p>&copy; 2024 Mohamed Dhia. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://discord.com" target="_blank"><i class="fab fa-discord"></i></a>
+            </div>
+            <p>Designed By MohamedDhia</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
